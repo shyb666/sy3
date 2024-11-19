@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <!-- Login Page Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/liteblue1"
+        android:text="Android App"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Username Input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入用户名"
+            android:inputType="text"
+            android:padding="8dp"
+            />
+    </LinearLayout>
+
+    <!-- Password Input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            />
+    </LinearLayout>
+
+    <!-- Login Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+               android:layout_marginRight="40dp"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btnLogin1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Sing in"
+
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+    <!-- Forgot Password Link -->
+
+
+</LinearLayout>
